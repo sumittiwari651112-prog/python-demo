@@ -1,0 +1,29 @@
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ----- Virtual environment (created on Day 9) -----
+.venv/
+venv/
+env/
+
+# ----- Database files (created from Day 16) -----
+*.db
+*.sqlite
+*.sqlite3
+
+# ----- Secrets (never commit real passwords or keys) -----
+.env
+*.key
+secrets.py
+
+# ----- Editor / OS junk -----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ----- Local output and logs -----
+*.log
+exports/
